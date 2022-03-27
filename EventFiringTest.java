@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringDecorator;
 
-
+//This is added as part of Git Demo
 public class EventFiringTest {
     private WebDriver original_driver, driver;//This WebDriver does not fire the events
    
