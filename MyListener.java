@@ -86,6 +86,8 @@ public class MyListener implements WebDriverListener {
 	 * ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);//BASE64,BYTE
 	 * //String filePath = "C:\temp" + DateTime ; Files.copy(scrFile, new
 	 * File("target/screenshots/error.png")); } catch (Exception e) {
-	 * e.printStackTrace(); } }
+	 * e.printStackTrace(); } 
+	 
+	 Hi This is added from GitHub
 	 */
 }
