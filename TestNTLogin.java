@@ -8,7 +8,7 @@ import org.testng.annotations.AfterClass;
 public class TestNTLogin {
 	NTLoginPage myHomePage;
 
-	@Test (groups = "Regression")
+	@Test (groups = {"Smoke", "Regression"})
 	public void nicheThyselfLoginTest() throws InterruptedException {
 		myHomePage.login("stc123", "12345");
 		String expectedTitleAfterLogin = "My account";
